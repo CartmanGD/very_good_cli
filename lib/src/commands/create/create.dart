@@ -92,22 +92,22 @@ class CreateCommand extends Command<int> {
       ..addOption(
         'web',
         help: 'The plugin supports the Web platform.',
-        defaultsTo: 'true',
+        defaultsTo: 'false',
       )
       ..addOption(
         'linux',
         help: 'The plugin supports the Linux platform.',
-        defaultsTo: 'true',
+        defaultsTo: 'false',
       )
       ..addOption(
         'macos',
         help: 'The plugin supports the macOS platform.',
-        defaultsTo: 'true',
+        defaultsTo: 'false',
       )
       ..addOption(
         'windows',
         help: 'The plugin supports the Windows platform.',
-        defaultsTo: 'true',
+        defaultsTo: 'false',
       );
   }
 
